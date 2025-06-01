@@ -113,4 +113,28 @@ This will start the application and display the main menu.
 10. **Display Seller-Buyer Pairs sorted by number of transaction**: Show trading pairs by transaction volume.
 0.  **Exit**: Save data and close the application.
 
+## Structure for GitHub repository:
+
+```
+energy-trading-system/
+├── README.md
+├── src/
+│   ├── buyer_tree.c
+│   ├── buyer.c
+│   ├── display.c
+│   ├── fileoperation.c
+│   ├── freememory.c
+│   ├── main.c
+│   ├── pair_tree.c
+│   ├── pair.c
+│   ├── seller_tree.c
+│   ├── seller.c
+│   ├── trans_tree.c
+│   ├── transaction.c
+│   ├── utils.c
+│   └── include/
+│       └── energytrading.h
+└── data/
+    ├── energytrading.txt
+    └── sellertable.txt
 ```
